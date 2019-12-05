@@ -2,6 +2,12 @@
 #WANIP=52.47.209.216
 echo "address=/.testing/$WANIP" > /etc/dnsmasq.d/wan.conf
 echo "address=/.awesome/$WANIP" >> /etc/dnsmasq.d/wan.conf
+echo "address=/.com/$WANIP" >> /etc/dnsmasq.d/wan.conf
+echo "address=/.uk/$WANIP" >> /etc/dnsmasq.d/wan.conf
+echo "address=/.net/$WANIP" >> /etc/dnsmasq.d/wan.conf
+echo "address=/.org/$WANIP" >> /etc/dnsmasq.d/wan.conf
+echo "address=/.it/$WANIP" >> /etc/dnsmasq.d/wan.conf
+
 
 echo "search reddog.microsoft.com" > /etc/resolv.conf
 echo "nameserver 127.0.0.1" >> /etc/resolv.conf
